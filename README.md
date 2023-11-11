@@ -1,17 +1,5 @@
 # validator-data
 
-const reqCLientType = {
-routes: {
-sourcePath: { type: 'string', required: true },
-destinationUrl: { type: 'string', required: true },
-},
-clients: {
-clientId: { type: 'string', required: true },
-limit: { type: 'number', required: false },
-seconds: { type: 'number', required: false },
-},
-};
-
 create similiar objects(reqCLientType) and use validtor-data as a middeleware
 
 ```const validatedata = require('validator-data');
