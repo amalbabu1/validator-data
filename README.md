@@ -1,6 +1,6 @@
 # validator-data
 
-create similiar objects(reqCLientType) and use validtor-data as a middeleware
+create similiar schema (reqCLientType) and use validtor-data as a middeleware
 
 ```
 const validatedata = require('validator-data');
